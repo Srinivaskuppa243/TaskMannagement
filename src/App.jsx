@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import TaskManagement from './components/taskManagement'
-import CountDownTimer from './components/CountDownTimer'
+import TaskManagement from './components/TaskManagement'
 
 const App = () => {
   const[dark,setDark]=useState(false)
@@ -9,7 +8,6 @@ const App = () => {
   }
   return (
     <div className={dark?"dark-mode":""}>
-      <CountDownTimer/>
       <TaskManagement
       onHandleDark={handleDarkMode}
       mode={dark}/>

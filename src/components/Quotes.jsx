@@ -18,9 +18,9 @@ const PongalQuote = () => {
     const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
     return (
-        <div style={{ textAlign: 'center', marginTop: '50px' }}>
+        <div className='text-center p-4 my-4'>
             <h1>Pongal Festival Quote</h1>
-            <p style={{ fontSize: '24px', fontStyle: 'italic' }}>{randomQuote}</p>
+            <p className='lead'>{randomQuote}</p>
         </div>
     );
 };

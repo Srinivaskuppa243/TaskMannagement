@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 const TaskForm = ({onaddTask}) => {
-    let[newTask,setNewTask]=useState()
-    let[priority,setPriority]=useState()
+    let[newTask,setNewTask]=useState("")
+    let[priority,setPriority]=useState("Medium")
     //HANDLE TASKS
     function handlenewTask(){
         if(newTask.trim()!==""){

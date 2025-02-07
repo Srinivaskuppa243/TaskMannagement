@@ -3,32 +3,8 @@
     {
       "text": "hello",
       "completed": false,
-      "priority": "Medium",
-      "id": "d5b1"
-    },
-    {
-      "text": "ok",
-      "completed": false,
-      "priority": "Medium",
-      "id": "d5b2"
-    },
-    {
-      "text": "dev.",
-      "completed": false,
-      "priority": "Medium",
-      "id": "d5b3"
-    },
-    {
-      "id": "52d0",
-      "text": "hi",
-      "completed": false,
-      "priority": "Low"
-    },
-    {
-      "id": "2f89",
-      "text": "hello",
-      "completed": false,
-      "priority": "High"
+      "priority": "High",
+      "id": "2f89"
     },
     {
       "id": "1629",
@@ -37,10 +13,34 @@
       "priority": "Low"
     },
     {
-      "id": "322e",
-      "text": "wassup",
+      "text": "code",
+      "completed": false,
+      "priority": "Medium",
+      "id": "322e"
+    },
+    {
+      "text": "hello",
+      "completed": false,
+      "priority": "High",
+      "id": "6046"
+    },
+    {
+      "id": "f88d",
+      "text": "Hello",
+      "completed": false,
+      "priority": "Medium"
+    },
+    {
+      "id": "c763",
+      "text": "code",
       "completed": false,
       "priority": "High"
+    },
+    {
+      "id": "ce0b",
+      "text": "projs",
+      "completed": false,
+      "priority": "Low"
     }
   ]
 }
